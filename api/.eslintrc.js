@@ -12,6 +12,7 @@ module.exports = {
     'no-unused-vars': 'off',
     'consistent-return': 'off',
     'class-methods-use-this': 'off',
+    'eslint-disable-next-line': off,
     'no-promise-executor-return': 'off',
     'import/no-extraneous-dependencies': 'off',
     camelcase: 'off',

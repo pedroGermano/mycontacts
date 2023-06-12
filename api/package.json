@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon -w src/index"
+    "dev": "nodemon src/index"
   },
   "author": "Pedro Germano <pedrogermano232@gmail.com>",
   "license": "MIT",
