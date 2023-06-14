@@ -53,6 +53,8 @@ class ContactsRepository {
         phone,
         category_id,
       };
+      contacts.push(newContact);
+      resolve(newContact);
     });
   }
 }
