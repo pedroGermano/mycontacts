@@ -58,6 +58,10 @@ export const Card = styled.div`
   align-items: center;
   justify-content: space-between;
 
+   & + & {
+    margin-top: 16px;
+   }
+
   .info{
     .contact-name{
       display: flex;
@@ -77,6 +81,18 @@ export const Card = styled.div`
     span{
       display: block;
       font-size: 14px;
+      color: ${({ theme }) => theme.colors.gray[200]}
+    }
+  }
+
+  .actions{
+    display: flex;
+    align-items: center;
+
+    button{
+      background: transparent;
+      border: none;
+      margin-left: 8px;
     }
   }
 `;
