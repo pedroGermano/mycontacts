@@ -8,6 +8,7 @@ export const Header = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 32px;
 
   strong {
     font-size: 24px;
@@ -95,4 +96,22 @@ export const Card = styled.div`
       margin-left: 8px;
     }
   }
+`;
+
+export const InputSearchContainer = styled.div`
+    width: 100%;
+
+    input{
+      width: 100%;
+      height: 50px;
+      border-radius: 25px;
+      padding: 0 16px;
+      border: none;
+      outline: none;
+      box-shadow: 8px 4px 10px rgba(0,0,0, 0.04);
+
+      &::placeholder{
+        color: #bcbcbc;
+      }
+    }
 `;

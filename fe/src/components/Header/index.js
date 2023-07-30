@@ -1,5 +1,5 @@
 import Logo from '../../assets/img/logo.svg';
-import { Container, InputSearchContainer } from './styles';
+import { Container } from './styles';
 
 export default function Header() {
   return (
@@ -10,12 +10,6 @@ export default function Header() {
         width={201}
       />
 
-      <InputSearchContainer>
-        <input
-          type="text"
-          placeholder="Pesquisar contato..."
-        />
-      </InputSearchContainer>
     </Container>
   );
 }
