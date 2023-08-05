@@ -13,6 +13,7 @@ export const Container = styled.header`
       img {
         margin-right: 8px;
         transform: rotate(-90deg);
+        transform: rotate(-90deg);
       }
     }
 
