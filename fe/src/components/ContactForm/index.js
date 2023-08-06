@@ -1,10 +1,12 @@
+import PropTypes from 'prop-types';
+import { Form, ButtonContainer } from './syles';
+
 import FormGroup from '../FormGroup';
-import { Form } from './syles';
 import Input from '../Input';
 import Select from '../Select';
 import Button from '../Button';
 
-export default function ContactForm() {
+export default function ContactForm({ buttonLabel }) {
   return (
     <Form>
       <FormGroup>
@@ -26,9 +28,15 @@ export default function ContactForm() {
         </Select>
       </FormGroup>
 
-      <Button>
-        Cadastrar
-      </Button>
+      <ButtonContainer>
+        <Button type="submit">
+          {buttonLabel}
+        </Button>
+      </ButtonContainer>
     </Form>
   );
 }
+
+ContactForm.propTypes = {
+  buttonLabel: PropTypes.string.isRequired,
+};
