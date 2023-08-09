@@ -11,7 +11,6 @@ export const Overlay = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  justify-content: center;
 `;
 
 export const Container = styled.div`
