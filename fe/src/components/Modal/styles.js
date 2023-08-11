@@ -21,4 +21,5 @@ export const Container = styled.div`
   padding: 24px;
   box-shadow: rgba(0, 0, 0, 0.04);
   width: 450px;
+  width: 450px;
 `;
