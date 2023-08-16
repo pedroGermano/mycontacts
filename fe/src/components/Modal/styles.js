@@ -11,6 +11,7 @@ export const Overlay = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  justify-content: center;
 `;
 
 export const Container = styled.div`
@@ -20,6 +21,5 @@ export const Container = styled.div`
   border-radius: 4px;
   padding: 24px;
   box-shadow: rgba(0, 0, 0, 0.04);
-  width: 450px;
   width: 450px;
 `;
