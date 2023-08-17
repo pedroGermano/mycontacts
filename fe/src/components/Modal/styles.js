@@ -11,7 +11,6 @@ export const Overlay = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  justify-content: center;
 `;
 
 export const Container = styled.div`
@@ -22,4 +21,8 @@ export const Container = styled.div`
   padding: 24px;
   box-shadow: rgba(0, 0, 0, 0.04);
   width: 450px;
+`;
+
+export const Footer = styled.footer`
+
 `;
