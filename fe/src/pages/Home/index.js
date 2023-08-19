@@ -7,12 +7,10 @@ import {
 import arrow from '../../assets/img/icons/arrow.svg';
 import edit from '../../assets/img/icons/edit.svg';
 import trash from '../../assets/img/icons/trash.svg';
-import Loader from '../../components/Loader';
 
 export default function Home() {
   return (
     <Container>
-      <Loader />
 
       <InputSearchContainer>
         <input
