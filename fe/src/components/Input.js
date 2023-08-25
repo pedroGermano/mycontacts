@@ -12,6 +12,7 @@ export default styled.input`
   padding: 0 16px;
   font-size: 16px;
   cursor: pointer;
+  cursor: pointer;
   transition: border-color 0.2s ease-in;
 
   &:focus{
