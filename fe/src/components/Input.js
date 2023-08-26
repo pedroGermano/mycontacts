@@ -12,7 +12,6 @@ export default styled.input`
   padding: 0 16px;
   font-size: 16px;
   cursor: pointer;
-  cursor: pointer;
   transition: border-color 0.2s ease-in;
 
   &:focus{
@@ -21,6 +20,7 @@ export default styled.input`
 
   ${({ theme, error }) => error && css`
     color: ${theme.colors.danger.main};
+    border-color: ${theme.colors.danger.main} !important;
     border-color: ${theme.colors.danger.main} !important;
   `}
 `;
