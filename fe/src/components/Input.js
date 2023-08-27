@@ -9,7 +9,6 @@ export default styled.input`
   height: 52px;
   border-radius: 4px;
   outline: none;
-  outline: none;
   padding: 0 16px;
   font-size: 16px;
   cursor: pointer;
@@ -20,6 +19,7 @@ export default styled.input`
   }
 
   ${({ theme, error }) => error && css`
+    color: ${theme.colors.danger.main};
     color: ${theme.colors.danger.main};
     border-color: ${theme.colors.danger.main} !important;
   `}
